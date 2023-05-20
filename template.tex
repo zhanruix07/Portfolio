@@ -1,0 +1,57 @@
+\documentclass[12pt]{article}
+\usepackage{indentfirst}
+% Defining all packages that are used in this document
+\input{Misc/preamble.tex}
+\title{Personal Portfolio}
+\author{Zhan RuiXin}
+\date{May, 2023}
+\linespread{1.5}
+\begin{document}
+\maketitle
+
+%\setlength{\parindent}{2em}
+ % 段落前使用 /noindent
+\renewcommand{\abstractname}{\large Abstract}
+\begin{abstract}
+\noindent
+\large A portfolio is a compilation of academic achievements, intended to showcase major outcomes and for evaluation purposes. To fulfill this purpose, this portfolio mainly consists of three components: The Mathematical Contest in Modeling (MCM), Internship at the Guangdong Academy of Science, and Work at the University of Exeter. It provides a concise summary of my undergraduate experiences in academic awards, internships, and work.
+\end{abstract}
+
+\pagenumbering{gobble} % Turn off page numbering
+%\newpage
+%\tableofcontents
+%\newpage
+\pagenumbering{arabic} % Turn on normal pagenumbering
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Main contents - Do NOT write your text in main.tex! Use                     the tex files in the folders below
+\input{Introduction/introduction.tex}
+ %theory
+%\input{Mathematical_model/mathematical_model.tex} 
+% method
+%\input{Results_and_discussion/results.tex}
+%result
+%\input{Results_and_discussion/discussion.tex}
+%analyse
+%\input{Conclusion/conclusion.tex}
+%Conclusion
+%\input{_item/item.tex}
+%用于存放各种样例
+
+
+%\newpage
+%\begin{thebibliography}{99}
+%\bibitem{ref2} \url{URL}
+%\end{thebibliography}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Bibliography
+%\newpage
+%%\bibliography{mendeley.bib}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Appendix
+%\appendix
+%\pagenumbering{roman}
+%\input{Appendix/appendix_A.tex}
+%\input{Appendix/appendix_B.tex}
+%\input{Appendix/appendix_C.tex}
+\end{document}
